@@ -8,6 +8,8 @@
 
 import UIKit
 
-class CustomUITabBar: UITabBarItem {
+class CustomUITabBar: UITabBarItem
+{
+    func t
 
 }

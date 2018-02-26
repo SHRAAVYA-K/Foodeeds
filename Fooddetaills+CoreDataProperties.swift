@@ -23,6 +23,6 @@ extension Fooddetaills {
     @NSManaged var qtystring: String?
     @NSManaged var serves: String?
     @NSManaged var vnonveg: String?
-    @NSManaged var currentdate: String?
+    @NSManaged var currentdate: String!
 
 }

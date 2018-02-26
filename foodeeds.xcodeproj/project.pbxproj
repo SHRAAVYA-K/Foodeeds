@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57DE00221EC842AE005CB656 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DE00201EC842AE005CB656 /* AccountKit.framework */; };
+		57DE00231EC842AE005CB656 /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57DE00211EC842AE005CB656 /* AccountKitStrings.bundle */; };
+		84169D711E4466DF000FD508 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84169D6F1E4466DF000FD508 /* User+CoreDataProperties.swift */; };
+		84169D721E4466DF000FD508 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84169D701E4466DF000FD508 /* User.swift */; };
+		84169D791E4473C1000FD508 /* Donordetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84169D771E4473C1000FD508 /* Donordetails+CoreDataProperties.swift */; };
+		84169D7A1E4473C1000FD508 /* Donordetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84169D781E4473C1000FD508 /* Donordetails.swift */; };
+		84169D851E4492F7000FD508 /* Fooddetaills+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84169D831E4492F7000FD508 /* Fooddetaills+CoreDataProperties.swift */; };
+		84169D861E4492F7000FD508 /* Fooddetaills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84169D841E4492F7000FD508 /* Fooddetaills.swift */; };
+		841F530D1E4325CA004C2C5D /* claim1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F530C1E4325CA004C2C5D /* claim1TableViewCell.swift */; };
+		841F530F1E432624004C2C5D /* claim1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F530E1E432624004C2C5D /* claim1ViewController.swift */; };
+		841F53111E433768004C2C5D /* claim2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F53101E433768004C2C5D /* claim2ViewController.swift */; };
+		841F53131E434FAC004C2C5D /* claim2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F53121E434FAC004C2C5D /* claim2TableViewCell.swift */; };
+		842EFF641E3F37F600EED3B3 /* donate1.png in Resources */ = {isa = PBXBuildFile; fileRef = 842EFF631E3F37F600EED3B3 /* donate1.png */; };
+		842EFF661E3F37F800EED3B3 /* claim1.png in Resources */ = {isa = PBXBuildFile; fileRef = 842EFF651E3F37F800EED3B3 /* claim1.png */; };
+		842EFF681E3F37FB00EED3B3 /* social1.png in Resources */ = {isa = PBXBuildFile; fileRef = 842EFF671E3F37FB00EED3B3 /* social1.png */; };
+		847E97161E545B0E00BD325D /* Social+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E97141E545B0E00BD325D /* Social+CoreDataProperties.swift */; };
+		847E97171E545B0E00BD325D /* Social.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E97151E545B0E00BD325D /* Social.swift */; };
 		84808CEC1E35DFFE00C2E9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84808CEB1E35DFFE00C2E9BE /* AppDelegate.swift */; };
 		84808CEE1E35DFFE00C2E9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84808CED1E35DFFE00C2E9BE /* ViewController.swift */; };
 		84808CF11E35DFFE00C2E9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84808CEF1E35DFFE00C2E9BE /* Main.storyboard */; };
@@ -15,6 +32,28 @@
 		84808CF91E35DFFE00C2E9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84808CF71E35DFFE00C2E9BE /* LaunchScreen.storyboard */; };
 		84808D041E35DFFE00C2E9BE /* foodeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84808D031E35DFFE00C2E9BE /* foodeedsTests.swift */; };
 		84808D0F1E35DFFE00C2E9BE /* foodeedsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84808D0E1E35DFFE00C2E9BE /* foodeedsUITests.swift */; };
+		84808D1D1E35E7E500C2E9BE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84808D1C1E35E7E500C2E9BE /* FirstViewController.swift */; };
+		84808D1F1E35E84300C2E9BE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84808D1E1E35E84300C2E9BE /* SecondViewController.swift */; };
+		84808D211E35E85300C2E9BE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84808D201E35E85300C2E9BE /* ThirdViewController.swift */; };
+		8488214B1E3748F700FD2A8A /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488214A1E3748F700FD2A8A /* LaunchScreen.swift */; };
+		848CB9EF1E40647000EE3CA1 /* SocialCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848CB9EE1E40647000EE3CA1 /* SocialCellTableViewCell.swift */; };
+		8498A6EF1E3F3F3B005F69BC /* donate1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498A6EE1E3F3F3B005F69BC /* donate1ViewController.swift */; };
+		8498A6F11E3F4A42005F69BC /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498A6F01E3F4A42005F69BC /* CustomTableViewCell.swift */; };
+		84A6B2241E6FFD49004D31E3 /* AlexBrush-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84A6B2231E6FFD49004D31E3 /* AlexBrush-Regular.ttf */; };
+		84A6B2261E700376004D31E3 /* Customuilabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6B2251E700376004D31E3 /* Customuilabel.swift */; };
+		84B4BB551E35EF4F004D8F14 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4BB541E35EF4F004D8F14 /* SignUpViewController.swift */; };
+		84F355A41E408EF10024D7E3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F355A31E408EF10024D7E3 /* MapKit.framework */; };
+		84F355A61E408EFF0024D7E3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F355A51E408EFF0024D7E3 /* CoreLocation.framework */; };
+		A60157951EB9D7E100D8A907 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A601578F1EB9D7E100D8A907 /* FirebaseAnalytics.framework */; };
+		A60157961EB9D7E100D8A907 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60157901EB9D7E100D8A907 /* FirebaseCore.framework */; };
+		A60157971EB9D7E100D8A907 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60157911EB9D7E100D8A907 /* FirebaseInstanceID.framework */; };
+		A60157981EB9D7E100D8A907 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60157921EB9D7E100D8A907 /* GoogleInterchangeUtilities.framework */; };
+		A60157991EB9D7E100D8A907 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60157931EB9D7E100D8A907 /* GoogleSymbolUtilities.framework */; };
+		A601579A1EB9D7E100D8A907 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A60157941EB9D7E100D8A907 /* GoogleToolboxForMac.framework */; };
+		A601579D1EB9D7F700D8A907 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A601579B1EB9D7F700D8A907 /* FirebaseAuth.framework */; };
+		A601579E1EB9D7F700D8A907 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A601579C1EB9D7F700D8A907 /* GTMSessionFetcher.framework */; };
+		A60157A01EB9D80600D8A907 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A601579F1EB9D80600D8A907 /* FirebaseDatabase.framework */; };
+		A66136311EBDD77B00481994 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A66136301EBDD77B00481994 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +74,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57DE00201EC842AE005CB656 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		57DE00211EC842AE005CB656 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		8409D1AD1E7026E500EF570E /* foodeeds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foodeeds-Bridging-Header.h"; sourceTree = "<group>"; };
+		84169D6F1E4466DF000FD508 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84169D701E4466DF000FD508 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84169D771E4473C1000FD508 /* Donordetails+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Donordetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84169D781E4473C1000FD508 /* Donordetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Donordetails.swift; sourceTree = "<group>"; };
+		84169D831E4492F7000FD508 /* Fooddetaills+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fooddetaills+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84169D841E4492F7000FD508 /* Fooddetaills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fooddetaills.swift; sourceTree = "<group>"; };
+		841F530C1E4325CA004C2C5D /* claim1TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = claim1TableViewCell.swift; sourceTree = "<group>"; };
+		841F530E1E432624004C2C5D /* claim1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = claim1ViewController.swift; sourceTree = "<group>"; };
+		841F53101E433768004C2C5D /* claim2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = claim2ViewController.swift; sourceTree = "<group>"; };
+		841F53121E434FAC004C2C5D /* claim2TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = claim2TableViewCell.swift; sourceTree = "<group>"; };
+		842EFF631E3F37F600EED3B3 /* donate1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donate1.png; sourceTree = "<group>"; };
+		842EFF651E3F37F800EED3B3 /* claim1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = claim1.png; sourceTree = "<group>"; };
+		842EFF671E3F37FB00EED3B3 /* social1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = social1.png; sourceTree = "<group>"; };
+		847E97141E545B0E00BD325D /* Social+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Social+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		847E97151E545B0E00BD325D /* Social.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Social.swift; sourceTree = "<group>"; };
 		84808CE81E35DFFE00C2E9BE /* foodeeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodeeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84808CEB1E35DFFE00C2E9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84808CED1E35DFFE00C2E9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +106,30 @@
 		84808D0A1E35DFFE00C2E9BE /* foodeedsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foodeedsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84808D0E1E35DFFE00C2E9BE /* foodeedsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodeedsUITests.swift; sourceTree = "<group>"; };
 		84808D101E35DFFE00C2E9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84808D1C1E35E7E500C2E9BE /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		84808D1E1E35E84300C2E9BE /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84808D201E35E85300C2E9BE /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		8488214A1E3748F700FD2A8A /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchScreen.swift; path = ../LaunchScreen.swift; sourceTree = "<group>"; };
+		848CB9EE1E40647000EE3CA1 /* SocialCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialCellTableViewCell.swift; sourceTree = "<group>"; };
+		8498A6EE1E3F3F3B005F69BC /* donate1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = donate1ViewController.swift; sourceTree = "<group>"; };
+		8498A6F01E3F4A42005F69BC /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		84A6B2231E6FFD49004D31E3 /* AlexBrush-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlexBrush-Regular.ttf"; sourceTree = "<group>"; };
+		84A6B2251E700376004D31E3 /* Customuilabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customuilabel.swift; sourceTree = "<group>"; };
+		84B4BB541E35EF4F004D8F14 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		84F355A31E408EF10024D7E3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84F355A51E408EFF0024D7E3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A601578F1EB9D7E100D8A907 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		A60157901EB9D7E100D8A907 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		A60157911EB9D7E100D8A907 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		A60157921EB9D7E100D8A907 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		A60157931EB9D7E100D8A907 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		A60157941EB9D7E100D8A907 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		A601579B1EB9D7F700D8A907 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		A601579C1EB9D7F700D8A907 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		A601579F1EB9D80600D8A907 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		A60157A11EB9D83000D8A907 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		A60157A21EB9D83900D8A907 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		A66136301EBDD77B00481994 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +137,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A60157A01EB9D80600D8A907 /* FirebaseDatabase.framework in Frameworks */,
+				A601579A1EB9D7E100D8A907 /* GoogleToolboxForMac.framework in Frameworks */,
+				A601579E1EB9D7F700D8A907 /* GTMSessionFetcher.framework in Frameworks */,
+				A60157981EB9D7E100D8A907 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				A60157951EB9D7E100D8A907 /* FirebaseAnalytics.framework in Frameworks */,
+				A60157991EB9D7E100D8A907 /* GoogleSymbolUtilities.framework in Frameworks */,
+				A60157971EB9D7E100D8A907 /* FirebaseInstanceID.framework in Frameworks */,
+				A60157961EB9D7E100D8A907 /* FirebaseCore.framework in Frameworks */,
+				A601579D1EB9D7F700D8A907 /* FirebaseAuth.framework in Frameworks */,
+				57DE00221EC842AE005CB656 /* AccountKit.framework in Frameworks */,
+				84F355A61E408EFF0024D7E3 /* CoreLocation.framework in Frameworks */,
+				84F355A41E408EF10024D7E3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +172,24 @@
 		84808CDF1E35DFFE00C2E9BE = {
 			isa = PBXGroup;
 			children = (
+				84A6B2231E6FFD49004D31E3 /* AlexBrush-Regular.ttf */,
+				847E97141E545B0E00BD325D /* Social+CoreDataProperties.swift */,
+				847E97151E545B0E00BD325D /* Social.swift */,
+				84169D831E4492F7000FD508 /* Fooddetaills+CoreDataProperties.swift */,
+				84169D841E4492F7000FD508 /* Fooddetaills.swift */,
+				84169D771E4473C1000FD508 /* Donordetails+CoreDataProperties.swift */,
+				84169D781E4473C1000FD508 /* Donordetails.swift */,
+				84169D6F1E4466DF000FD508 /* User+CoreDataProperties.swift */,
+				84169D701E4466DF000FD508 /* User.swift */,
+				84F355A51E408EFF0024D7E3 /* CoreLocation.framework */,
+				84F355A31E408EF10024D7E3 /* MapKit.framework */,
 				84808CEA1E35DFFE00C2E9BE /* foodeeds */,
 				84808D021E35DFFE00C2E9BE /* foodeedsTests */,
 				84808D0D1E35DFFE00C2E9BE /* foodeedsUITests */,
 				84808CE91E35DFFE00C2E9BE /* Products */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 1;
 		};
 		84808CE91E35DFFE00C2E9BE /* Products */ = {
 			isa = PBXGroup;
@@ -99,13 +204,44 @@
 		84808CEA1E35DFFE00C2E9BE /* foodeeds */ = {
 			isa = PBXGroup;
 			children = (
+				57DE00201EC842AE005CB656 /* AccountKit.framework */,
+				57DE00211EC842AE005CB656 /* AccountKitStrings.bundle */,
+				8488214A1E3748F700FD2A8A /* LaunchScreen.swift */,
 				84808CEB1E35DFFE00C2E9BE /* AppDelegate.swift */,
 				84808CED1E35DFFE00C2E9BE /* ViewController.swift */,
 				84808CEF1E35DFFE00C2E9BE /* Main.storyboard */,
+				84A6B2251E700376004D31E3 /* Customuilabel.swift */,
+				841F53121E434FAC004C2C5D /* claim2TableViewCell.swift */,
+				841F53101E433768004C2C5D /* claim2ViewController.swift */,
+				841F530E1E432624004C2C5D /* claim1ViewController.swift */,
+				841F530C1E4325CA004C2C5D /* claim1TableViewCell.swift */,
+				848CB9EE1E40647000EE3CA1 /* SocialCellTableViewCell.swift */,
+				8498A6F01E3F4A42005F69BC /* CustomTableViewCell.swift */,
+				8498A6EE1E3F3F3B005F69BC /* donate1ViewController.swift */,
+				84B4BB541E35EF4F004D8F14 /* SignUpViewController.swift */,
+				8409D1AD1E7026E500EF570E /* foodeeds-Bridging-Header.h */,
+				84808D1E1E35E84300C2E9BE /* SecondViewController.swift */,
+				84808D201E35E85300C2E9BE /* ThirdViewController.swift */,
+				84808D1C1E35E7E500C2E9BE /* FirstViewController.swift */,
 				84808CF51E35DFFE00C2E9BE /* Assets.xcassets */,
 				84808CF71E35DFFE00C2E9BE /* LaunchScreen.storyboard */,
 				84808CFA1E35DFFE00C2E9BE /* Info.plist */,
 				84808CF21E35DFFE00C2E9BE /* foodeeds.xcdatamodeld */,
+				842EFF671E3F37FB00EED3B3 /* social1.png */,
+				842EFF651E3F37F800EED3B3 /* claim1.png */,
+				842EFF631E3F37F600EED3B3 /* donate1.png */,
+				A60157A21EB9D83900D8A907 /* Firebase.h */,
+				A60157A11EB9D83000D8A907 /* module.modulemap */,
+				A66136301EBDD77B00481994 /* GoogleService-Info.plist */,
+				A601579F1EB9D80600D8A907 /* FirebaseDatabase.framework */,
+				A601579B1EB9D7F700D8A907 /* FirebaseAuth.framework */,
+				A601579C1EB9D7F700D8A907 /* GTMSessionFetcher.framework */,
+				A601578F1EB9D7E100D8A907 /* FirebaseAnalytics.framework */,
+				A60157901EB9D7E100D8A907 /* FirebaseCore.framework */,
+				A60157911EB9D7E100D8A907 /* FirebaseInstanceID.framework */,
+				A60157921EB9D7E100D8A907 /* GoogleInterchangeUtilities.framework */,
+				A60157931EB9D7E100D8A907 /* GoogleSymbolUtilities.framework */,
+				A60157941EB9D7E100D8A907 /* GoogleToolboxForMac.framework */,
 			);
 			path = foodeeds;
 			sourceTree = "<group>";
@@ -196,13 +332,16 @@
 				TargetAttributes = {
 					84808CE71E35DFFE00C2E9BE = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 					};
 					84808CFE1E35DFFE00C2E9BE = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 84808CE71E35DFFE00C2E9BE;
 					};
 					84808D091E35DFFE00C2E9BE = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 84808CE71E35DFFE00C2E9BE;
 					};
 				};
@@ -232,9 +371,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DE00231EC842AE005CB656 /* AccountKitStrings.bundle in Resources */,
+				84A6B2241E6FFD49004D31E3 /* AlexBrush-Regular.ttf in Resources */,
+				842EFF681E3F37FB00EED3B3 /* social1.png in Resources */,
+				A66136311EBDD77B00481994 /* GoogleService-Info.plist in Resources */,
 				84808CF91E35DFFE00C2E9BE /* LaunchScreen.storyboard in Resources */,
 				84808CF61E35DFFE00C2E9BE /* Assets.xcassets in Resources */,
+				842EFF641E3F37F600EED3B3 /* donate1.png in Resources */,
 				84808CF11E35DFFE00C2E9BE /* Main.storyboard in Resources */,
+				842EFF661E3F37F800EED3B3 /* claim1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +404,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8488214B1E3748F700FD2A8A /* LaunchScreen.swift in Sources */,
 				84808CEE1E35DFFE00C2E9BE /* ViewController.swift in Sources */,
+				84169D711E4466DF000FD508 /* User+CoreDataProperties.swift in Sources */,
 				84808CEC1E35DFFE00C2E9BE /* AppDelegate.swift in Sources */,
+				847E97161E545B0E00BD325D /* Social+CoreDataProperties.swift in Sources */,
+				84169D861E4492F7000FD508 /* Fooddetaills.swift in Sources */,
+				84B4BB551E35EF4F004D8F14 /* SignUpViewController.swift in Sources */,
+				84A6B2261E700376004D31E3 /* Customuilabel.swift in Sources */,
+				841F53111E433768004C2C5D /* claim2ViewController.swift in Sources */,
 				84808CF41E35DFFE00C2E9BE /* foodeeds.xcdatamodeld in Sources */,
+				84169D721E4466DF000FD508 /* User.swift in Sources */,
+				8498A6EF1E3F3F3B005F69BC /* donate1ViewController.swift in Sources */,
+				84169D851E4492F7000FD508 /* Fooddetaills+CoreDataProperties.swift in Sources */,
+				84169D791E4473C1000FD508 /* Donordetails+CoreDataProperties.swift in Sources */,
+				841F530D1E4325CA004C2C5D /* claim1TableViewCell.swift in Sources */,
+				84169D7A1E4473C1000FD508 /* Donordetails.swift in Sources */,
+				8498A6F11E3F4A42005F69BC /* CustomTableViewCell.swift in Sources */,
+				84808D1F1E35E84300C2E9BE /* SecondViewController.swift in Sources */,
+				847E97171E545B0E00BD325D /* Social.swift in Sources */,
+				841F530F1E432624004C2C5D /* claim1ViewController.swift in Sources */,
+				84808D211E35E85300C2E9BE /* ThirdViewController.swift in Sources */,
+				84808D1D1E35E7E500C2E9BE /* FirstViewController.swift in Sources */,
+				848CB9EF1E40647000EE3CA1 /* SocialCellTableViewCell.swift in Sources */,
+				841F53131E434FAC004C2C5D /* claim2TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +567,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/foodeeds",
+				);
 				INFOPLIST_FILE = foodeeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Test.foodeeds;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.foodeeds2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/citimac-08/Desktop/FoodeedsRefined/foodeeds/foodeeds-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "\"foodeeds/module.modulemap\"";
 			};
 			name = Debug;
 		};
@@ -412,10 +586,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/foodeeds",
+				);
 				INFOPLIST_FILE = foodeeds/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Test.foodeeds;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.foodeeds2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/citimac-08/Desktop/FoodeedsRefined/foodeeds/foodeeds-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "\"foodeeds/module.modulemap\"";
 			};
 			name = Release;
 		};
@@ -427,6 +609,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.foodeedsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodeeds.app/foodeeds";
 			};
 			name = Debug;
@@ -439,6 +622,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.foodeedsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foodeeds.app/foodeeds";
 			};
 			name = Release;
@@ -450,6 +634,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.foodeedsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = foodeeds;
 				USES_XCTRUNNER = YES;
 			};
@@ -462,6 +647,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.foodeedsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = foodeeds;
 				USES_XCTRUNNER = YES;
 			};
@@ -486,6 +672,7 @@
 				84808D151E35DFFE00C2E9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84808D161E35DFFE00C2E9BE /* Build configuration list for PBXNativeTarget "foodeedsTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +681,7 @@
 				84808D181E35DFFE00C2E9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84808D191E35DFFE00C2E9BE /* Build configuration list for PBXNativeTarget "foodeedsUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +690,7 @@
 				84808D1B1E35DFFE00C2E9BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

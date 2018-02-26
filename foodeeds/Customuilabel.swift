@@ -17,5 +17,10 @@ class Customuilabel: UILabel {
         // Drawing code
     }
     */
+    
+    override func layoutSubviews() {
+        self.font = UIFont(name: "Helvetica Neue", size: 16)
+        self.textColor = UIColor(red: 39/255, green: 62/255, blue: 97/255, alpha: 1.0)
+    }
 
 }

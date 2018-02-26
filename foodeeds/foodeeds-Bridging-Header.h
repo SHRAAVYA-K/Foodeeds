@@ -8,6 +8,7 @@
 
 #ifndef foodeeds_Bridging_Header_h
 #define foodeeds_Bridging_Header_h
-
+#import <AccountKit/AccountKit.h>
+#import "Firebase.h"
 
 #endif /* foodeeds_Bridging_Header_h */
